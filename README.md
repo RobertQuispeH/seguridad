@@ -17,7 +17,7 @@ Otra terminal
 ```
 cd .\backend\
 python -m venv env
-.\envt\Scripts\activate
+.\env\Scripts\activate
 python -m pip install --upgrade pip
 flask db init
 flask db migrate -m "Initial migration"
